@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { OWM_API_KEY, OWM_API_URL } from '../../api/openweathermap'
+import { OWM_API_KEY, OWM_API_URL } from '../../api/openWeatherMap'
 
 type UseWeatherData = [data: object, isLoaded: boolean]
 
@@ -23,13 +23,12 @@ function useWeatherData(): UseWeatherData {
           .then((result) => {
             setData(result)
           })
-          setTimeout(() => {
-            setIsLoaded(true)
-          }, 500)
+        setTimeout(() => {
+          setIsLoaded(true)
+        }, 500)
       }
     }
     fetchWeather()
-
   }, [latitude, longitude])
   return [data, isLoaded]
 }

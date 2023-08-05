@@ -1,27 +1,75 @@
-# React + TypeScript + Vite
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a target="_blank" href="https://github.com/artsiom-voitas/weather-app/">
+    <img src="./public/logo.svg" alt="Logo" width="80" height="80" stroke="white">
+  </a>
 
-Currently, two official plugins are available:
+<h3 align="center">Weather App</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    Check the weather now!
+    <br />
+    <a href="https://artsiom-voitas.github.io/weather-app"><strong>View Demo</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/artsiom-voitas/weather-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/artsiom-voitas/weather-app/issues">Request Feature</a>
+  </p>
+</div>
 
-## Expanding the ESLint configuration
+<!-- ABOUT THE PROJECT -->
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## About The Project
 
-- Configure the top-level `parserOptions` property like this:
+<p align="center">
+  <img src="/public/screenshot.png" width="320" alt="Main page screenshot">
+&nbsp; &nbsp; &nbsp; &nbsp;
+</p>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+This application is built with help of Vite, React, TypeScript and NextUI.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Built With
+
+- [![TS][TypeScript]][typescript-url]
+- [![React][React.js]][React-url]
+- [![Vite][vitejs.dev]][vitejs-url]
+
+<!-- CONTACT -->
+
+## Contact
+
+Artsiom Voitas - [@artsiom_voitas](https://x.com/artsiom_voitas) - artsiom.voitas@gmail.com
+
+Project
+Link: [https://github.com/artsiom-voitas/weather-app](https://github.com/artsiom-voitas/weather-app)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/artsiom-voitas/weather-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/artsiom-voitas/weather-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/artsiom-voitas/weather-app.svg?style=for-the-badge
+[forks-url]: https://github.com/artsiom-voitas/weather-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/artsiom-voitas/weather-app.svg?style=for-the-badge
+[stars-url]: https://github.com/artsiom-voitas/weather-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/artsiom-voitas/weather-app.svg?style=for-the-badge
+[issues-url]: https://github.com/artsiom-voitas/weather-app/issues
+[license-shield]: https://img.shields.io/github/license/artsiom-voitas/weather-app.svg?style=for-the-badge
+[license-url]: https://github.com/artsiom-voitas/weather-app/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/artsiom-voitas/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[vitejs.dev]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[vitejs-url]: https://vitejs.dev/
+[TypeScript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org/

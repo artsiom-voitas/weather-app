@@ -1,6 +1,6 @@
 import { Card, CardBody, CardHeader, Divider, Image, Spinner } from '@nextui-org/react'
 import moment from 'moment'
-import { OWM_ICON_URL } from '../api/openweathermap'
+import { OWM_ICON_URL } from '../api/openWeatherMap'
 import { formatDate } from '../services/formatDate'
 import { useWeatherData } from './hooks'
 
