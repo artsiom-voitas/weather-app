@@ -25,7 +25,6 @@ interface WeatherData {
 
 function WeatherCard() {
   const [data, isLoaded] = useWeatherData()
-  console.log(data)
 
   const { main, sys, name, weather }: WeatherData = data
   const temp = main?.temp?.toFixed(0)

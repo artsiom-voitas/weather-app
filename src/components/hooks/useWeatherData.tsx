@@ -23,12 +23,13 @@ function useWeatherData(): UseWeatherData {
           .then((result) => {
             setData(result)
           })
+          setTimeout(() => {
+            setIsLoaded(true)
+          }, 500)
       }
     }
     fetchWeather()
-    setTimeout(() => {
-      setIsLoaded(true)
-    }, 500)
+
   }, [latitude, longitude])
   return [data, isLoaded]
 }
